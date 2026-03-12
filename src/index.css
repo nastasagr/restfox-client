@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    width: 350px;
+    height: 540px;
+    background-color: #dae5f9;
+    font-family: "Recursive", sans-serif;
+
+}
+
+
+
+.button {
+    @apply w-full px-4 h-8 relative rounded-md hover:opacity-80;
+}
+
+
+.errorMsg {
+    @apply w-full left-0 h-6  text-xs absolute flex justify-center items-center bottom-0;
+}

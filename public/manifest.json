@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "RestFox Client",
+    "version": "1.0",
+    "description": "Restfox Client lets you manage multiple WordPress websites from one unified dashboard, making it easier to organize, control, and interact with all your sites that use the RestFox plugin.",
+    "icons": {
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "48": "icons/48.png"
+        }
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "restfox-client@nastasagr"
+        }
+    },
+    "permissions": []
+}
